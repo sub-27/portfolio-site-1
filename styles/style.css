@@ -37,6 +37,14 @@ html {
   scroll-behavior: smooth;
 }
 
+.light-mode {
+  --color-light: oklch(0.1462 0.0204 268.3);
+  --color-dark: oklch(96.8% 0.007 247.896);
+  --color-slate400: oklch(27.9% 0.041 260.031);
+  --color-slate600: oklch(27.9% 0.041 260.031);
+  --color-slate800: oklch(27.9% 0.041 260.031);
+}
+
 body {
   font-family: "General Sans", sans-serif;
   background-color: var(--color-dark);
