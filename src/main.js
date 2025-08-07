@@ -7,4 +7,9 @@ import '../styles/components/featured.css';
 import '../styles/components/works.css';
 import '../styles/components/contact.css';
 import '../styles/components/footer.css';
+import '../styles/components/mobile-nav.css';
 import '../styles/utils.css';
+
+import mobileNavigation from './utils/mobile-nav';
+
+mobileNavigation();
